@@ -1,0 +1,20 @@
+# --- Python & Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+
+# --- Environment Variables & Secrets ---
+.env
+
+# --- Docker Data Volumes (wichtig, damit keine lokalen DBs hochgeladen werden) ---
+nessie-data/
+minio-data/
+cloudbeaver-data/
+jupyter-notebooks/
+
+# --- macOS System Files ---
+.DS_Store
